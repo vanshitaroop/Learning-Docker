@@ -1,8 +1,8 @@
-versions: '3',
+version: '3'
 services: 
   redis-server:
     image: 'redis'
   node-app: 
     build: . 
     ports: 
-      - '4081:8081'
+      - '8081:8081'
